@@ -1,0 +1,60 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment/config files
+.env
+.env.*
+.python-version
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter / notebooks checkpoints
+.ipynb_checkpoints/
+
+# Model artifacts and generated data
+*.joblib
+*.pkl
+*.h5
+*.ckpt
+
+# Logs and temporary files
+*.log
+*.tmp
+tmp/
+temp/
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Coverage and test reports
+.coverage
+.coverage.*
+htmlcov/
+
+# Streamlit local state
+.streamlit/
+
+# Data directories (keep raw data if needed, uncomment if you want to track them)
+# data/raw/
+# data/processed/
